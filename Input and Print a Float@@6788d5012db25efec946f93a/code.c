@@ -1,8 +1,10 @@
 #include<stdio.h>
-float main()
+int main()
 { 
  float number;
+ printf("");
  scanf("%f",&number);
- printf("You entered:%f",number);
+ printf("You entered:%.2f\n",number);
+
 
 }
